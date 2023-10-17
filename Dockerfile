@@ -1,7 +1,7 @@
 FROM ubuntu:latest AS build
 
 RUN apt-get update
-RUN apt-get install openjdk-15-jdk -y
+RUN sudo apt-get install openjdk-15-jdk -y
 
 COPY . .
 
